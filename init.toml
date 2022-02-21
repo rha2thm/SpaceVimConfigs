@@ -18,11 +18,10 @@
     enable_guicolors = false
     # Disable statusline separator, if you want to use other value, please
     # install nerd fonts
-    statusline_separator = "arrow"
-    statusline_iseparator = "arrow"
+    statusline_separator = "nil"  # "arrow"
     buffer_index_type = 4
     windows_index_type = 3
-    enable_tabline_filetype_icon = true
+    enable_tabline_filetype_icon = false
     enable_statusline_mode = false
     statusline_unicode = false
     # Enable vim compatible mode, avoid changing origin vim key bindings
@@ -41,6 +40,11 @@
     name = 'shell'
     default_position = 'bottom'
     default_height = 16
+
+[[layers]]
+    name = 'core'
+    filetree_show_hidden = true
+    enable_smooth_scrolling = true
 
 [[layers]]
     name = "colorscheme"
